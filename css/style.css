@@ -257,6 +257,7 @@ footer {
 .redes {
   display: flex;
   margin: auto;
+  padding-top: .2em;
   font-size: 3em;
 }
 .icono {
