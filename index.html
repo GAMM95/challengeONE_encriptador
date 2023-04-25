@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="shortcut icon" href="images/Logo.svg">
   <title>Encriptador de Textos ALURA</title>
+
   <!-- Iconos -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/iconoir-icons/iconoir@main/css/iconoir.css">
 
@@ -16,6 +17,7 @@
 
   <!-- javascript -->
   <script src="script.js" defer></script>
+
   <!-- fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -36,17 +38,14 @@
       <!-- Seccion 1 -->
       <section class="entrada">
 
-        <textarea class="textarea1" id="mensaje" placeholder="Escriba su texto aquí"></textarea>
-        <!-- Textarea de entrada -->
-        <div class="container_externo">
-          <!-- Bloque de advertencia y botones -->
+        <textarea class="textarea1" id="mensaje" placeholder="Escriba su texto aquí"></textarea> <!-- Textarea de entrada -->
+        <div class="container_externo"> <!-- Bloque de advertencia y botones -->
           <article class="alert alert">
             <img class="alert_icon" src="images/Vector.svg" />
             <p class="alert_p disable" id="alertText">Solo letras minúsculas y sin caracteres especiales</p>
           </article>
 
-          <div class="botones">
-            <!-- Botones encriptar / desencriptar -->
+          <div class="botones"><!-- Botones encriptar / desencriptar -->
             <button class="btn_s1" id="btn_encriptar" onclick="encriptar(event)">Encriptar</button>
             <button class="btn_s1" id="btn_desencriptar" onclick="desencriptar(event)">Desencriptar</button>
           </div>
@@ -54,19 +53,16 @@
       </section>
 
       <!-- Seccion 2 -->
-      <section class="salida">
-        <!-- CARD -->
-        <div class="mensaje_inicial" id="mensaje_inicial">
-          <!-- vacio -->
-          <!--tapa inicial (mensaje)-->
+      <section class="salida"><!-- CARD -->
+        <div class="mensaje_inicial" id="mensaje_inicial"><!--tapa inicial (mensaje)-->
           <article class="mensaje" id="mensaje_1">
             <img class="imagen" src="images/Muñeco.svg" alt="Muñeco" loading="lazy" />
             <p class="vacio_problema">Ningún mensaje fue encontrado</p>
             <span>Ingrese un texto de desee encriptar o desencriptar.</span>
           </article>
         </div>
-        <div class="resultado disable" id="resultado">
-          <!-- Mensaje de salida -->
+
+        <div class="resultado disable" id="resultado"><!-- Mensaje de salida -->
           <textarea class="textarea2" id="texto" disabled></textarea>
           <div class="botones">
             <button class="btn_s2" onclick="copiarPortapapeles();" id="copyButton">Copiar</button>
@@ -80,8 +76,7 @@
     <footer>
       <h1 class="copyright">&copy Desarrollado por GAMM95 - 2023</h1>
       <div class="redes">
-        <a class="icono" href="https://www.linkedin.com/in/jhonatan-mantilla-jmm190395/" target="_blank">
-          <i class="iconoir-linkedin"></i></a>
+        <a class="icono" href="https://www.linkedin.com/in/jhonatan-mantilla-jmm190395/" target="_blank"><i class="iconoir-linkedin"></i></a>
         <a class="icono" href="https://github.com/GAMM95" target="_blank"><i class="iconoir-github-circle"></i></a>
       </div>
     </footer>
