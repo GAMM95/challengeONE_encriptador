@@ -258,7 +258,7 @@ footer {
   display: flex;
   margin: auto;
   padding-top: .2em;
-  font-size: 3em;
+  font-size: 2.5em;
 }
 .icono {
   background-color: var(--white);
