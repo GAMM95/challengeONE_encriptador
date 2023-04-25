@@ -242,7 +242,7 @@ footer {
   background-color: var(--bg-header);
   height: 10vh;
   width: 100%;
-  display: flex;
+  display: grid;
   flex-direction: row;
   align-items: center;
 }
@@ -252,5 +252,15 @@ footer {
   font-size: 1.5em;
   text-align: center;
   margin: auto;
+  padding-top: 1em;
 }
-
+.redes {
+  display: flex;
+  margin: auto;
+  font-size: 3em;
+}
+.icono {
+  background-color: var(--white);
+  color: var(--bg-buttom);
+  padding: 0em .3em;
+}
