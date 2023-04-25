@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Text Encryptor</title>
+  <!-- css -->
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- javascript -->
+  <script src="script.js" defer></script>
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="container">
+    <!-- ********** HEADER ********** -->
+    <header class="header_container">
+      <img class="header_logo" src="images/Logo.svg" alt="logoAlura" />
+      <h1 class="header_p">Challenge ONE - Encriptador de textos</h1>
+    </header>
+
+    <!-- ********** MAIN ********** -->
+    <main class="main_container">
+
+      <!-- Seccion 1 -->
+      <section class="entrada">
+
+        <textarea class="textarea1" id="mensaje" placeholder="Escriba su texto aquí"></textarea>
+        <!-- Textarea de entrada -->
+        <div class="container_externo">
+          <!-- Bloque de advertencia y botones -->
+          <article class="aviso">
+            <img class="alert_icon" src="images/Vector.svg" />
+            <p class="alert_p disable" id="alertText">Solo letras minúsculas y sin caracteres especiales</p>
+          </article>
+
+          <div class="botones">
+            <!-- Botones encriptar / desencriptar -->
+            <button class="btn_s1" id="btn_encriptar" onclick="encriptar(event)">Encriptar</button>
+            <button class="btn_s1" id="btn_desencriptar" onclick="desencriptar(event)">Desencriptar</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Seccion 2 -->
+      <section class="salida">
+        <div class="mensaje_inicial" id="mensaje_inicial">
+          <!--tapa inicial (mensaje)-->
+          <article class="mensaje" id="mensaje_1">
+            <img class="imagen" src="images/Muñeco.svg" alt="Muñeco" loading="lazy" />
+            <p class="alert disable">Ningún mensaje fue encontrado</p>
+            <span>Ingrese un texto de desee encriptar o desencriptar.</span>
+          </article>
+
+          <div class="resultado disable" id="resultado">
+            <!-- Mensaje de salida -->
+            <textarea class="textarea2" id="texto"></textarea>
+            <div class="botones">
+              <button class="btn_s2" onclick="copiarPortapapeles();" id="copyButton">Copiar</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ********** FOOTER ********** -->
+    <footer>
+      <h1 class="copyright">&copy Desarrollado por GAMM95 - 2023</h1>
+      <a class="icono" href="" target="_blank">Linkedin</a>
+      <a class="icono" href="https://github.com/GAMM95" target="_blank">GitHub</a>
+    </footer>
+  </div>
+</body>
+
+</html>
