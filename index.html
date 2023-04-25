@@ -40,7 +40,7 @@
         <!-- Textarea de entrada -->
         <div class="container_externo">
           <!-- Bloque de advertencia y botones -->
-          <article class="aviso">
+          <article class="alert alert">
             <img class="alert_icon" src="images/Vector.svg" />
             <p class="alert_p disable" id="alertText">Solo letras minúsculas y sin caracteres especiales</p>
           </article>
@@ -55,22 +55,24 @@
 
       <!-- Seccion 2 -->
       <section class="salida">
+        <!-- CARD -->
         <div class="mensaje_inicial" id="mensaje_inicial">
+          <!-- vacio -->
           <!--tapa inicial (mensaje)-->
           <article class="mensaje" id="mensaje_1">
             <img class="imagen" src="images/Muñeco.svg" alt="Muñeco" loading="lazy" />
-            <p class="alert disable">Ningún mensaje fue encontrado</p>
+            <p class="vacio_problema">Ningún mensaje fue encontrado</p>
             <span>Ingrese un texto de desee encriptar o desencriptar.</span>
           </article>
-
-          <div class="resultado disable" id="resultado">
-            <!-- Mensaje de salida -->
-            <textarea class="textarea2" id="texto"></textarea>
-            <div class="botones">
-              <button class="btn_s2" onclick="copiarPortapapeles();" id="copyButton">Copiar</button>
-            </div>
+        </div>
+        <div class="resultado disable" id="resultado">
+          <!-- Mensaje de salida -->
+          <textarea class="textarea2" id="texto"></textarea>
+          <div class="botones">
+            <button class="btn_s2" onclick="copiarPortapapeles();" id="copyButton">Copiar</button>
           </div>
         </div>
+
       </section>
     </main>
 
@@ -78,7 +80,8 @@
     <footer>
       <h1 class="copyright">&copy Desarrollado por GAMM95 - 2023</h1>
       <div class="redes">
-        <a class="icono" href="https://www.linkedin.com/in/jhonatan-mantilla-jmm190395/" target="_blank"><i class="iconoir-linkedin"></i></a>
+        <a class="icono" href="https://www.linkedin.com/in/jhonatan-mantilla-jmm190395/" target="_blank">
+          <i class="iconoir-linkedin"></i></a>
         <a class="icono" href="https://github.com/GAMM95" target="_blank"><i class="iconoir-github-circle"></i></a>
       </div>
     </footer>

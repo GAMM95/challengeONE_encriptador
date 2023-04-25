@@ -84,6 +84,7 @@ function sinResultado() {
   document.getElementById('resultado').classList.add('disable');
 }
 
+/* Funcion para esconder mensaje de alerta cuando es necesario */
 function alterta() {
   document.getElementById('alertText').classList.remove('disable');
   setTimeout(function() {
