@@ -1,0 +1,37 @@
+@media screen and (max-width: 767px) {
+    .container {
+      width: 100vw;
+    }
+    .header_container {
+      height: 8.5vh;
+      padding: 2em 0;
+      margin-bottom: 1em;
+    }
+    .header_logo {
+      margin-left: 2em;
+      margin-right: 1em;
+    }
+    .header_p {
+      margin-top: 0;
+      padding: 0;
+      font-size: 1.5em;
+    }
+    .main_container {
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+    }
+    .entrada {
+      height: 60%;
+      width: 80%;
+      justify-content: space-evenly;
+    }
+  
+    .botones {
+      margin: auto;
+      padding: auto;
+    }
+    .imagen {
+      display: none;
+    }
+  }

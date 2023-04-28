@@ -1,0 +1,33 @@
+@media screen and (min-width: 768px) and (max-width:1023px) {
+    .container {
+      width: 100vw;
+    }
+  
+    .main_container {
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+    }
+    .entrada,
+    .salida {
+      height: 100%;
+      width: 80%;
+      justify-content: space-evenly;
+    }
+   .textarea1 {
+      padding: 1.2em;
+      width: 100%;
+      font-size: 1.5em;
+    }
+    .textarea2 {
+      font-size: 2em;
+      padding: 1em;
+    }
+    .botones {
+      margin: auto;
+      padding: auto;
+    }
+    .imagen {
+      display: none;
+    }
+  }
