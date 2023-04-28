@@ -1,5 +1,5 @@
 // Diccionario para encriptar y desencriptar
-const encrypt = text => {
+const mensajeEncriptado = text => {
   return text
   .replace(/e/g, "enter")
   .replace(/i/g, "imes")
@@ -8,7 +8,7 @@ const encrypt = text => {
   .replace(/u/g, "ufat")
 }
 
-const decrypt = text => {
+const mensajeDesencriptado = text => {
   return text
   .replace(/enter/g, "e")
   .replace(/imes/g, "i")
@@ -20,6 +20,7 @@ const decrypt = text => {
 // Expresion regular para validar el texto
 const pattern = /[A-ZÁÉÍÓÚÜÑáéíóúüñ]/;
 
+// Funcion para encriptar texto
 function encriptar(e) {
   e.preventDefault();
 
@@ -33,7 +34,7 @@ function encriptar(e) {
   }
   // Validar si hay texto para encriptar
   if (text != '') {
-      text = encrypt(text);
+      text = mensajeEncriptado(text);
       resultado(text);
   } else {
       sinResultado();
@@ -53,7 +54,7 @@ function desencriptar(e) {
   }
   // Validar si hay texto para encriptar
   if (text != '') {
-      text = decrypt(text);
+      text = mensajeDesencriptado(text);
       resultado(text);
   } else {
       sinResultado();
