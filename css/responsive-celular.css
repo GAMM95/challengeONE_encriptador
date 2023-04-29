@@ -1,6 +1,20 @@
 @media screen and (max-width: 767px) {
   @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
 
+  :root {
+    /* Colores background */
+    --bg-header: #1e2227;
+    --bg-body: #23272e;
+    --bg-textarea: #282c34;
+    --bg-card: #d1d1d1;
+    --bg-buttom: #61dafb;
+    --bg-sombra: #009dff;
+    /* Colores de texto */
+    --txt_title: #61dafb;
+    --txt-textarea: #fff;
+    --txt-warning: #d1d1d1;
+  }
+
   .container {
     width: 100vw;
   }
@@ -35,12 +49,13 @@
     padding-bottom: 0em;
   }
   .alert_icon {
-    padding-top: 1.2em;
-    padding-bottom: 1.2em;
+    padding: 1.2em 0;
   }
+  
   .alert_p {
     padding: 0em;
-    font-size: 1em;
+    margin-bottom: 0;
+    font-size: 1.3em;
   }
   .mensaje_inicial,
   .resultado {
@@ -61,21 +76,24 @@
   }
 
   .botones {
-    margin: 0;
     width: 80%;
-    padding: 0;
+    
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
   }
-  #btn_encriptar, #btn_desencriptar{
-    width: 100%;
-    padding: 1em;
+
+  #btn_encriptar:hover ,
+  #btn_desencriptar:hover {
+
   }
   .btn_s1,
   .btn_s2 {
+    width: 100%;
     margin: 0.5em;
     padding: auto;
+    padding: 1em;
+
   }
   #copyButton {
     margin-top: 1em;
@@ -83,7 +101,7 @@
   .imagen {
     display: none;
   }
-  .copyright{
+  .copyright {
     font-size: 1.2em;
   }
 }
