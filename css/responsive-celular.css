@@ -5,27 +5,26 @@
     /* Tamaños de fuente */
     --font-medium: 2em;
   }
-  /* ------- HEADER ------ */
   .container {
     width: 100vw;
   }
+  /* ------- HEADER ------ */
   .header_container {
     height: 8.5vh;
     padding: auto 0;
-    justify-content: center;
-    margin-bottom: 1em;
+    /*justify-content: center;*/
+    margin-bottom: 1rem;
   }
-  .header_logo {
-    margin-left: 2em;
-    margin-right: .2em;
-    font-size: 1.5em;
-  }
+  .header_logo,
   .header_p {
-    margin-top: .3em;
+    justify-content: space-around;
+    padding: auto;
+    margin-top: 0.3rem;
     padding: 0;
-    font-size: 1.5em;
+    font-size: 2rem;
     text-align: center;
   }
+  /* ------- MAIN ------ */
   .main_container {
     flex-direction: column;
     justify-content: space-evenly;
@@ -37,18 +36,26 @@
     justify-content: space-evenly;
   }
   .alert {
-    margin-top: 1em;
+    margin-top: 1rem;
     display: block;
-    margin-bottom: 1.2em;
-    padding-bottom: 0em;
+    margin-bottom: 1.2rem;
+    padding-bottom: 0rem;
   }
   .alert_icon {
-    padding: 1.2em 0;
+    padding: 1.2rem 0;
   }
   .alert_p {
     padding: 0em;
     margin-bottom: 0;
-    font-size: 1.3em;
+    font-size: 1.3rem;
+    width: 100%;
+    text-transform: lowercase;
+  }
+
+  .botones {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
   }
   .mensaje_inicial,
   .resultado {
@@ -62,6 +69,7 @@
     height: 120%;
     width: 80%;
   }
+  .txtarea1,
   .textarea2 {
     padding: 0.5em;
     margin-top: 0em;
@@ -69,20 +77,13 @@
     font-size: var(--font-medium);
   }
 
-  .botones {
-    width: 30rem;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-  }
-
   .btn_s1,
   .btn_s2 {
     margin: 0.5em;
     padding: auto;
     padding: 1em;
+    width: 30rem;
   }
-
 
   #copyButton {
     margin-top: 1em;
@@ -90,6 +91,8 @@
   .imagen {
     display: none;
   }
+
+  /* ------- FOOTER ------ */
   .copyright {
     font-size: 1.2em;
   }
