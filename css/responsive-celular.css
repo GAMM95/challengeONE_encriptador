@@ -51,7 +51,7 @@
   .alert_icon {
     padding: 1.2em 0;
   }
-  
+
   .alert_p {
     padding: 0em;
     margin-bottom: 0;
@@ -63,6 +63,7 @@
     height: 80%;
     margin-top: 2em;
     margin-bottom: auto;
+    color: var(--txt-textarea);
   }
 
   .salida {
@@ -77,24 +78,20 @@
 
   .botones {
     width: 80%;
-    
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
   }
 
-  #btn_encriptar:hover ,
-  #btn_desencriptar:hover {
-
-  }
   .btn_s1,
   .btn_s2 {
     width: 100%;
     margin: 0.5em;
     padding: auto;
     padding: 1em;
-
   }
+
+
   #copyButton {
     margin-top: 1em;
   }
