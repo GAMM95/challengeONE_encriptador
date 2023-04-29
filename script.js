@@ -18,7 +18,7 @@ const mensajeDesencriptado = text => {
 }
 
 // Expresion regular para validar el texto
-const pattern = /[A-ZÁÉÍÓÚÜÑáéíóúüñ]/;
+const pattern = /[A-ZÁÉÍÓÚÜÑáéíóúüñ0123456789]/;
 
 // Funcion para encriptar texto
 function encriptar(e) {

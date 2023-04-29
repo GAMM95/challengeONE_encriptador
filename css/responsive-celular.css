@@ -2,35 +2,29 @@
   @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
 
   :root {
-    /* Colores background */
-    --bg-header: #1e2227;
-    --bg-body: #23272e;
-    --bg-textarea: #282c34;
-    --bg-card: #d1d1d1;
-    --bg-buttom: #61dafb;
-    --bg-sombra: #009dff;
-    /* Colores de texto */
-    --txt_title: #61dafb;
-    --txt-textarea: #fff;
-    --txt-warning: #d1d1d1;
+    /* Tamaños de fuente */
+    --font-medium: 2em;
   }
-
+  /* ------- HEADER ------ */
   .container {
     width: 100vw;
   }
   .header_container {
     height: 8.5vh;
-    padding: 2em 0;
+    padding: auto 0;
+    justify-content: center;
     margin-bottom: 1em;
   }
   .header_logo {
     margin-left: 2em;
     margin-right: 1em;
+    font-size: 1.5em;
   }
   .header_p {
-    margin-top: 0;
+    margin-top: .3em;
     padding: 0;
-    font-size: 1.5em;
+    font-size: 2em;
+    text-align: center;
   }
   .main_container {
     flex-direction: column;
@@ -51,7 +45,6 @@
   .alert_icon {
     padding: 1.2em 0;
   }
-
   .alert_p {
     padding: 0em;
     margin-bottom: 0;
@@ -63,7 +56,6 @@
     height: 80%;
     margin-top: 2em;
     margin-bottom: auto;
-    color: var(--txt-textarea);
   }
 
   .salida {
@@ -74,10 +66,11 @@
     padding: 0.5em;
     margin-top: 0em;
     margin-bottom: 0;
+    font-size: var(--font-medium);
   }
 
   .botones {
-    width: 80%;
+    width: 30rem;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
