@@ -23,7 +23,7 @@
   .header_p {
     margin-top: .3em;
     padding: 0;
-    font-size: 2em;
+    font-size: 1.5em;
     text-align: center;
   }
   .main_container {
@@ -78,7 +78,6 @@
 
   .btn_s1,
   .btn_s2 {
-    width: 100%;
     margin: 0.5em;
     padding: auto;
     padding: 1em;
