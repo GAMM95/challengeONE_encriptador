@@ -48,9 +48,6 @@
     margin-bottom: 0;
     font-size: 1.8rem;
   }
-  #mensaje{
-    text-transform: lowercase;
-  }
   .mensaje_inicial,
   .resultado {
     width: 100%;
