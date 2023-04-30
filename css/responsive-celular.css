@@ -12,10 +12,12 @@
   .header_container {
     height: 8.5vh;
     padding: auto 0;
-    /*justify-content: center;*/
+    justify-content: center;
     margin-bottom: 1rem;
   }
-  .header_logo,
+  .header_logo{
+    display: none;
+  }
   .header_p {
     justify-content: space-around;
     padding: auto;
