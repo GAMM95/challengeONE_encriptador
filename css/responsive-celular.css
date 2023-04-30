@@ -34,7 +34,6 @@
     height: 200%; /*cambio 75*/
     width: 80%;
     justify-content: space-evenly;
-    text-transform: lowercase;
   }
   .alert {
     margin-top: 1rem;
@@ -64,10 +63,14 @@
     margin-top: 2em;
     margin-bottom: auto;
   }
+  #mensaje {
+    text-transform: lowercase;
+  }
 
   .salida {
     height: 120%;
     width: 80%;
+    font-size: 1rem;
   }
   .txtarea1,
   .textarea2 {

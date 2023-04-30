@@ -1,28 +1,27 @@
-@media screen and (min-width: 768px) and (max-width:1023px) {
-  
+@media screen and (min-width: 767px) and (max-width: 1023px) {
   :root {
     /* Tamaños de fuente */
-    --font-medium: 2em;
+    --font-medium: 2rem;
   }
-  /* ------- HEADER ------ */
   .container {
     width: 100vw;
   }
+  /* ------- HEADER ------ */
   .header_container {
     height: 8.5vh;
     padding: auto 0;
     justify-content: center;
-    margin-bottom: 1em;
+    margin-bottom: 1rem;
   }
   .header_logo {
-    margin-left: 2em;
-    margin-right: 1em;
-    font-size: 1.5em;
+    margin-left: 2rem;
+    margin-right: 1rem;
+    font-size: 1.5rem;
   }
   .header_p {
-    margin-top: .3em;
-    padding: 0;
-    font-size: 2em;
+    margin-top: 0.3rem;
+    padding: 0rem;
+    font-size: 2rem;
     text-align: center;
   }
   .main_container {
@@ -36,34 +35,38 @@
     justify-content: space-evenly;
   }
   .alert {
-    margin-top: 1em;
+    margin-top: 1rem;
     display: block;
-    margin-bottom: 1.2em;
-    padding-bottom: 0em;
+    margin-bottom: 1.2rem;
+    padding-bottom: 0rem;
   }
   .alert_icon {
-    padding: 1.2em 0;
+    padding: 1.8rem 0;
   }
   .alert_p {
     padding: 0em;
     margin-bottom: 0;
-    font-size: 1.3em;
+    font-size: 1.8rem;
+  }
+  #mensaje{
+    text-transform: lowercase;
   }
   .mensaje_inicial,
   .resultado {
     width: 100%;
     height: 80%;
-    margin-top: 2em;
+    margin-top: 2rem;
     margin-bottom: auto;
   }
 
   .salida {
     height: 80%;
     width: 80%;
+    font-size: 1.5rem;
   }
   .textarea2 {
-    padding: 0.5em;
-    margin-top: 0em;
+    padding: 0.5rem;
+    margin-top: 0rem;
     margin-bottom: 0;
     font-size: var(--font-medium);
   }
@@ -78,19 +81,19 @@
   .btn_s1,
   .btn_s2 {
     width: 100%;
-    margin: 0.5em;
-    padding: auto;
-    padding: 1em;
+    margin: 0.5rem;
+    padding: 1.5rem;
+    font-size: 1.5rem;
   }
 
-
   #copyButton {
-    margin-top: 1em;
+    margin-top: 1rem;
+    width: 50%;
   }
   .imagen {
     display: none;
   }
   .copyright {
-    font-size: 1.2em;
+    font-size: 1.5rem;
   }
 }
