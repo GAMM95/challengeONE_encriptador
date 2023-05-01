@@ -1,4 +1,7 @@
-// Diccionario de vocales a encriptar
+  // inputs
+  const textarea1 = document.getElementById("mensaje");
+
+  // Diccionario de vocales a encriptar
 const mensajeEncriptado = text => {
   return text
     .replace(/e/g, "enter")
@@ -63,15 +66,14 @@ function desencriptar(e) {
 
 // Funcion para copiar el mensaje al portapapeles
 async function copiarPortapapeles() {
+
   let text = document.getElementById('texto').innerHTML;
-  try {
-    await navigator.clipboard.writeText(text);
-    // mostrar mensaje de copiado
-    console.log("Texto copiado al portapapeles");
-  } catch (err) {
-    // mostrar mensaje de no copiado
-    console.error("Error al copiar texto al portapapeles:", err);
-  }
+    textarea1.value = "";
+
+  await navigator.clipboard.writeText(text);
+  text.value = "";
+  // alert("Texto Copiado")
+  swal("Buen trabajo!", "Texto copiado", "success");
 }
 
 function resultado(text) {

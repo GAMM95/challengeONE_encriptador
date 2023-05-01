@@ -155,6 +155,7 @@ body {
 }
 
 #btn_encriptar {
+  background-image: linear-gradient(to right, #6190E8 0%, #A7BFE8  51%, #6190E8  100%);
   background: transparent;
   color: var(--bg-buttom);
 }
