@@ -13,8 +13,6 @@
 ------------
 
 
-
-
 ## 🧿Visualizaciones
 ### 💻 🖥️Desktop Responsive
 ### 📲Tablet Responsive
