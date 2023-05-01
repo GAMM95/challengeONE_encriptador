@@ -69,10 +69,7 @@ async function copiarPortapapeles() {
 
   let text = document.getElementById('texto').innerHTML;
     textarea1.value = "";
-
   await navigator.clipboard.writeText(text);
-  text.value = "";
-  // alert("Texto Copiado")
   swal("Buen trabajo!", "Texto copiado", "success");
 }
 
@@ -89,8 +86,11 @@ function sinResultado() {
 
 /* Funcion para esconder mensaje de alerta cuando es necesario */
 function alterta() {
-  document.getElementById('alertText').classList.remove('disable');
+ /* document.getElementById('alertText').classList.remove('disable');
   setTimeout(function () {
     document.getElementById('alertText').classList.add('disable');
-  }, 3000);
+  }, 3000);*/
+
+
+  swal ( "Oops" ,  "Solo letras minúsculas y sin acentos!" ,  "error" )
 }
