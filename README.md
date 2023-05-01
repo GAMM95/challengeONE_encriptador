@@ -26,7 +26,7 @@ Las "llaves" de encriptación que utilizaremos son las siguientes:
 * No deben ser utilizados letras con acentos ni caracteres especiales
 * Debe ser posible convertir una palabra para la versión encriptada también devolver una palabra encriptada para su versión original. Por ejemplo:
 <br>
-
+<div align="center"> 
 | Texto ingresado | Texto encriptado  | 
 | :------------:|:---------------:| 
 | "gato"        | "gaitober"      | 
@@ -36,7 +36,7 @@ Las "llaves" de encriptación que utilizaremos son las siguientes:
 | Texto encriptado | Texto desencriptado  |
 | :------------:|:---------------:| 
 | "gaitober"    | "gato"          | 
-
+</div>
 
 * La página debe tener campos para inserción del texto que será encriptado o desencriptado, y el usuario debe poder escoger entre las dos opciones.
 * El resultado debe ser mostrado en la pantalla.
