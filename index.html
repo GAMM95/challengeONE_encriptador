@@ -21,13 +21,14 @@
   <!-- javascript -->
   <script src="script.js" defer></script>
 
+
   <!-- fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet" />
 </head>
 
-<body > <!--oncontextmenu="return false" para bloquear inspeccion de codigo-->
+<body oncontextmenu ="return false" > <!--para bloquear inspeccion de codigo-->
   <div class="container">
     <!-- ********** HEADER ********** -->
     <header class="header_container">
@@ -44,12 +45,7 @@
         <textarea class="textarea1" id="mensaje" placeholder="Escriba su texto aquí"></textarea>
         <!-- Textarea de entrada -->
         <div class="container_externo">
-          <!-- Bloque de advertencia y botones      <article class="alert alert">
-            <img class="alert_icon" src="images/Vector.svg" alt="iconoAlerta" loading="lazy"/>
-            <p class="alert_p disable" id="alertText">Solo letras minúsculas y sin acentos</p>
-          </article>-->
-     
-
+          <!-- Bloque de botones-->
           <div class="botones">
             <!-- Botones encriptar / desencriptar -->
             <button class="btn_s1" id="btn_encriptar" onclick="encriptar(event)">Encriptar</button>

@@ -1,7 +1,11 @@
-![](https://img.shields.io/github/stars/pandao/editor.md.svg) 
+**Tabla de contenidos**
 
+[TOCM]
+
+![](https://img.shields.io/github/stars/pandao/editor.md.svg) ![](https://img.shields.io/github/forks/pandao/editor.md.svg) ![](https://img.shields.io/github/tag/pandao/editor.md.svg) ![](https://img.shields.io/github/release/pandao/editor.md.svg) ![](https://img.shields.io/github/issues/pandao/editor.md.svg) ![](https://img.shields.io/bower/v/editor.md.svg)
 # Challenge encriptador de textos
 
+### 📘Descripción
 <![video](https://url/to/images/video.webm)><br>
 
 > Este Challenge consiste en crear una _página web_ que pueda ***encriptar y desencriptar un texto ingresado*** por el usuario y mostrar dicho texto de forma encriptada o desencriptada. Challenge creado con los conocimientos adquiridos durante el curso de "Principiante En Programación"
@@ -10,18 +14,18 @@
 
 
 
-**Tabla de contenidos**
 
-[TOCM]
-
-## 💻
-
+## 🧿Visualizaciones
+### 💻 🖥️Desktop Responsive
+### 📲Tablet Responsive
+### 📱Mobile Responsive
+<br>
 ## 🛠️ Lenguajes utilizados
 <img src="https://skillicons.dev/icons?i=javascript,html,css"></img>
 <br>
 
 ## 📝 Requisitos
-> Las "llaves" de encriptación que utilizaremos son las siguientes:
+> Las** "llaves"** de encriptación que utilizaremos son las siguientes:
 
 | Vocal ingresada | Vocal encriptada  | 
 | :------------:|:---------------:| 

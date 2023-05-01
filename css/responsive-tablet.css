@@ -24,6 +24,7 @@
     font-size: 2rem;
     text-align: center;
   }
+  /* ------- MAIN ------ */
   .main_container {
     flex-direction: column;
     justify-content: space-evenly;
@@ -34,19 +35,11 @@
     width: 80%;
     justify-content: space-evenly;
   }
-  .alert {
-    margin-top: 1rem;
-    display: block;
-    margin-bottom: 1.2rem;
-    padding-bottom: 0rem;
-  }
-  .alert_icon {
-    padding: 1.8rem 0;
-  }
-  .alert_p {
-    padding: 0em;
-    margin-bottom: 0;
-    font-size: 1.8rem;
+  .botones {
+    margin-top: 2rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
   }
   .mensaje_inicial,
   .resultado {
@@ -90,6 +83,8 @@
   .imagen {
     display: none;
   }
+
+  /* ------- FOOTER ------ */
   .copyright {
     font-size: 1.5rem;
   }
