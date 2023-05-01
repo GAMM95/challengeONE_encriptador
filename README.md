@@ -12,6 +12,7 @@
 
 ## 📝 Requisitos
 Las "llaves" de encriptación que utilizaremos son las siguientes:
+<br>
 <div align="center"> 
 | Vocal ingresada | Vocal encriptada  | 
 | :------------:|:---------------:| 
@@ -26,8 +27,8 @@ Las "llaves" de encriptación que utilizaremos son las siguientes:
 * Debe funcionar solo con letras minúsculas
 * No deben ser utilizados letras con acentos ni caracteres especiales
 * Debe ser posible convertir una palabra para la versión encriptada también devolver una palabra encriptada para su versión original. Por ejemplo:
-<div align="center"> 
 <br>
+<div align="center"> 
 | Texto ingresado | Texto encriptado  | 
 | :------------:|:---------------:| 
 | "gato"        | "gaitober"      | 
