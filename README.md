@@ -14,6 +14,7 @@
 Las "llaves" de encriptación que utilizaremos son las siguientes:
 <br>
 <div align="center"> 
+<br>
 | Vocal ingresada | Vocal encriptada  | 
 | :------------:|:---------------:| 
 | La letra "a"  | "ai"            | 
@@ -29,6 +30,7 @@ Las "llaves" de encriptación que utilizaremos son las siguientes:
 * Debe ser posible convertir una palabra para la versión encriptada también devolver una palabra encriptada para su versión original. Por ejemplo:
 <br>
 <div align="center"> 
+<br>
 | Texto ingresado | Texto encriptado  | 
 | :------------:|:---------------:| 
 | "gato"        | "gaitober"      | 
