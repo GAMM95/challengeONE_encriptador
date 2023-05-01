@@ -15,8 +15,11 @@
 
 ## 🧿Visualizaciones
 ### 💻 🖥️Desktop Responsive
+<img  src="images/Overviews/desktop_responsive.png" style="width: 30%">
 ### 📲Tablet Responsive
+<img  src="images/Overviews/tablet_responsive.png" style="width: 30%">
 ### 📱Mobile Responsive
+<img  src="images/Overviews/phone_responsive.png" style="width: 30%">
 <br>
 ## 🛠️ Lenguajes utilizados
 <img src="https://skillicons.dev/icons?i=javascript,html,css"></img>
