@@ -40,7 +40,7 @@ function encriptar(e) {
     resultadoConTexto(text);
   } else { // Validar si no hay texto para encriptar
     resultadoSinTexto();
-    swal("Ingrese un texto ...!");
+    swal("No ingreso texto?", "Escriba algo que quiera encriptar o desencriptar ...!");
   }
 }
 // Funcion para desencriptar texto
@@ -51,17 +51,17 @@ function desencriptar(e) {
   let text = document.getElementById('mensaje').value;
   // Validar si el texto cumple con la expresion regular
   if (pattern.test(text) == true) {
-    swal("Oops", "Solo letras minúsculas y sin caracteres especiales!", "error")
+    swal("Ups", "Solo letras minúsculas y sin caracteres especiales!", "error");
     resultadoSinTexto();
     return;
   }
-  
+
   if (text != '') { // Validar si hay texto para encriptar
     text = mensajeDesencriptado(text);
     resultadoConTexto(text);
   } else { // Validar si no hay texto para encriptar
     resultadoSinTexto();
-    swal("Ingrese un texto ...!");
+    swal("No ingreso texto?", "Escriba algo que quiera encriptar o desencriptar ...!");
   }
 }
 
@@ -70,7 +70,7 @@ async function copiarPortapapeles() {
   let text = document.getElementById('texto').innerHTML;
   textarea1.value = "";
   await navigator.clipboard.writeText(text);
-  swal("Buen trabajo!", "Texto copiado", "success");
+  swal("Buen trabajo!", "Texto copiado con éxito", "success");
 }
 
 function resultadoConTexto(text) {
