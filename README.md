@@ -1,8 +1,3 @@
-**Tabla de contenidos**
-
-[TOCM]
-
-![](https://img.shields.io/github/stars/pandao/editor.md.svg) ![](https://img.shields.io/github/forks/pandao/editor.md.svg) ![](https://img.shields.io/github/tag/pandao/editor.md.svg) ![](https://img.shields.io/github/release/pandao/editor.md.svg) ![](https://img.shields.io/github/issues/pandao/editor.md.svg) ![](https://img.shields.io/bower/v/editor.md.svg)
 # Challenge encriptador de textos
 
 ### 📘Descripción
@@ -12,16 +7,21 @@
 
 ------------
 
+**Tabla de contenidos**
+
+[TOCM]
+
+------------
 
 ## 🧿Visualizaciones
 ### 💻 🖥️Desktop Responsive
-<img  src="images/Overviews/desktop_responsive.png" style="width: 80%" aling="center">
+<img  src="images/Overviews/desktop_responsive.png" style="width: 100%" aling="center">
 
 ### 📲Tablet Responsive
-<img  src="images/Overviews/tablet_responsive.png" style="width: 60%" aling="center">
+<img  src="images/Overviews/tablet_responsive.png" style="width: 80%" aling="center">
 
 ### 📱Mobile Responsive
-<img  src="images/Overviews/phone_responsive.png" style="width: 50%" aling="center">
+<img  src="images/Overviews/phone_responsive.png" style="width: 70%" aling="center">
 
 
 ## 🛠️ Lenguajes utilizados
@@ -29,7 +29,7 @@
 <br>
 
 ## 📝 Requisitos
-> Las** "llaves"** de encriptación que utilizaremos son las siguientes:
+> Las **"llaves"** de encriptación que utilizaremos son las siguientes:
 
 | Vocal ingresada | Vocal encriptada  | 
 | :------------:|:---------------:| 
